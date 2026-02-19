@@ -8,7 +8,7 @@ export default function Hero() {
           {/* Left: Photo + Text */}
           <div className="flex flex-1 flex-col items-center gap-10 md:flex-row md:items-stretch md:gap-14">
             {/* Photo */}
-            <div className="shrink-0 w-40 sm:w-48 md:w-64 lg:w-72">
+              <div className="shrink-0 md:w-64 lg:w-72">
                 <img
                   src={`${import.meta.env.BASE_URL}abdel.jpg`}
                   alt="Abdelrahman Elshrief"
