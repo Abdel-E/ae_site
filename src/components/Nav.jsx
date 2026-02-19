@@ -28,7 +28,7 @@ export default function Nav() {
           ))}
           <li>
             <a
-              href="/AE_resume_latest.pdf"
+              href={`${import.meta.env.BASE_URL}AE_resume_latest.pdf`}
               download
               className="inline-flex items-center gap-1.5 rounded border border-copper px-3 py-1.5 text-copper transition-all duration-200 hover:bg-copper hover:text-navy"
             >

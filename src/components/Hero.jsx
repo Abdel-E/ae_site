@@ -10,7 +10,7 @@ export default function Hero() {
             {/* Photo */}
             <div className="shrink-0 md:w-64 lg:w-72">
                 <img
-                  src="/abdel.jpg"
+                  src={`${import.meta.env.BASE_URL}abdel.jpg`}
                   alt="Abdelrahman Elshrief"
                   className="h-full w-full rounded-2xl object-cover object-top"
                 />
