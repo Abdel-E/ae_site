@@ -8,7 +8,7 @@ export default function Hero() {
           {/* Left: Photo + Text */}
           <div className="flex flex-1 flex-col items-center gap-10 md:flex-row md:items-stretch md:gap-14">
             {/* Photo */}
-            <div className="shrink-0 md:w-64 lg:w-72">
+            <div className="shrink-0 w-40 sm:w-48 md:w-64 lg:w-72">
                 <img
                   src={`${import.meta.env.BASE_URL}abdel.jpg`}
                   alt="Abdelrahman Elshrief"
@@ -24,7 +24,7 @@ export default function Hero() {
               </p>
 
               {/* Name */}
-              <h1 className="font-display text-5xl font-bold leading-[1.05] tracking-tight text-sand-light sm:text-6xl md:text-7xl">
+              <h1 className="font-display text-4xl font-bold leading-[1.05] tracking-tight text-sand-light sm:text-5xl md:text-6xl lg:text-7xl">
                 Abdelrahman
                 <br />
                 <span className="text-copper">Elshrief</span>
