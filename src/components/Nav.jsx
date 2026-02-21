@@ -31,18 +31,7 @@ export default function Nav() {
               </a>
             </li>
           ))}
-          <li>
-            <a
-              href={`${import.meta.env.BASE_URL}AE_resume_latest.pdf`}
-              download
-              className="inline-flex items-center gap-1.5 rounded border border-copper px-3 py-1.5 text-copper transition-all duration-200 hover:bg-copper hover:text-navy"
-            >
-              <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V3" />
-              </svg>
-              Resume
-            </a>
-          </li>
+          
         </ul>
 
         {/* Mobile toggle */}
@@ -82,16 +71,7 @@ export default function Nav() {
                 </a>
               </li>
             ))}
-            <li>
-              <a
-                onClick={() => setOpen(false)}
-                href={`${import.meta.env.BASE_URL}AE_resume_latest.pdf`}
-                download
-                className="inline-flex w-full items-center justify-center gap-1.5 rounded border border-copper px-3 py-2 text-copper transition-all duration-200 hover:bg-copper hover:text-navy"
-              >
-                Resume
-              </a>
-            </li>
+            
           </ul>
         </div>
       </div>
