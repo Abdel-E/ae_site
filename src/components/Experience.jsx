@@ -1,13 +1,24 @@
 const EXPERIENCE = [
   {
+    role: "Driverless Recruit",
+    company: "UTFR",
+    location: "Toronto, ON",
+    period: "Jan 2026 – Present",
+    bullets: [
+      "Selected for UTFR's driverless program; supported vehicle integration and test operations.",
+      "Calibrated and validated sensor stacks (LiDAR, cameras), contributing to high-quality perception datasets.",
+      "Automated test-run orchestration and telemetry aggregation, improving test throughput and diagnostics.",
+    ],
+  },
+  {
     role: "MCP Gateway Developer",
     company: "UTMIST x Agentiiv",
     location: "Toronto, ON",
-    period: "Dec 2025 – Present",
+    period: "Jan 2026 – Present",
     bullets: [
-      "Architected a FastAPI backend for an MCP Gateway, implementing deterministic routing across 5+ MCP connectors (e.g., Google Drive) to validate multi-agent interoperability.",
-      "Secured agent communication via RBAC and JWT validation, establishing enterprise-grade authorization for granular permission control.",
-      "Deployed Dockerized environments with Prometheus & Grafana monitoring to visualize system health and reduce deployment latency.",
+      "Architected a FastAPI backend for an MCP Gateway, enabling deterministic routing across multiple MCP connectors to validate multi-agent interoperability.",
+      "Implemented RBAC and JWT-based validation to secure agent communication and enforce granular permissions.",
+      "Containerized services with Docker and added Prometheus/Grafana instrumentation to monitor system health and reduce deployment latency.",
     ],
   },
   {
@@ -16,9 +27,9 @@ const EXPERIENCE = [
     location: "Toronto, ON",
     period: "Nov 2024 – Present",
     bullets: [
-      "Conducted Prompt Engineering and Rubric development & evaluation to challenge AI programming models.",
-      "Executed QA on large-scale datasets, correcting automated labeling errors to ensure high-fidelity training data for engineering teams.",
-      "Generated 100+ edge-case datasets adhering to complex annotation protocols, directly supporting model fine-tuning.",
+      "Designed and evaluated prompts and rubrics to stress-test AI models for correctness and safety.",
+      "Performed QA across large datasets, identifying and correcting labeling errors to improve training data quality.",
+      "Produced 100+ edge-case datasets and evaluation suites used for targeted model fine-tuning.",
     ],
   },
   {
@@ -27,9 +38,9 @@ const EXPERIENCE = [
     location: "Kingston, ON",
     period: "Aug 2022 – Aug 2023",
     bullets: [
-      "Led full-cycle development of a fintech platform using Next.js and Python, containerized via Docker for scalable external deployment.",
-      "Engineered cross-platform API integrations (Venmo, PayPal) to process $3,500+ in transactions for 100+ beta users.",
-      "Managed AWS cloud infrastructure and domain security, decreasing downtime by 90% and ensuring data protection for financial transactions.",
+      "Built a full-stack fintech platform with Next.js and Python, deployed with Docker for reproducible releases.",
+      "Integrated payment APIs (Venmo, PayPal) to support beta transactions and merchant flows.",
+      "Operated AWS infrastructure and security measures, significantly improving uptime and operational resilience.",
     ],
   },
 ];
